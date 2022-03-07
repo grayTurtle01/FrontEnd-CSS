@@ -1,0 +1,41 @@
+*{
+    font-family: Arial;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid black;
+
+    padding: 0 100px;
+
+    background: linear-gradient(45deg, white, #e6f4fc);
+}
+
+#logo{
+    color: #3454d2;
+}
+
+
+header li{
+    display: inline-block;
+    margin: 0 15px;
+
+    color: #6d7b93;
+    font-size: 20px;
+}
+
+header li button{
+    background: #3454d2;
+    color: white;
+
+    border-radius: 5px;
+
+    font-size: 20px;
+    padding: 12px 25px;
+
+    border: 0px;
+}
