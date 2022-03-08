@@ -230,6 +230,8 @@ i{
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 0px;
+
+    margin-bottom: 150px;
 }
 
 
@@ -283,4 +285,72 @@ i{
 
 .tip-bar-open .tip-bar{
     width: 80%;
+}
+
+/* Fourth Section*/
+#fourth-section{
+    padding-left: 100px;
+
+    display: flex;
+}
+
+#fourt-section-left{
+    width: 50%;
+}
+
+#emergency-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.emergency-card{
+    width: 200px;
+    height: 150px;
+
+    border: 2px solid lightgray;
+    border-radius: 10px;
+
+    padding: 30px 30px;
+
+    margin-right: 15px;
+    margin-top: 15px;
+    
+}
+
+.emergency-header{
+    display: flex;
+}
+
+.title-and-number{
+    margin-left: 15px;
+}
+
+.emergency-card i{
+    font-size: 40px;
+}
+
+.emergency-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.emergency-number{
+    font-size: 14px;
+}
+
+.emergency-card button{
+    width: 100%;
+    height: 50px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    margin-top: 40px;
+
+    color: #3454d2;
+    background: #f0f4ff;
+
+    border-radius: 5px;
+    border: 0px;
+
 }
