@@ -179,12 +179,13 @@ i{
     padding: 0px 100px;
 }
 
-#second-section h2{
+.subtitle{
     color: #1f3e72;
     font-size: 40px;
+    margin-top: 0px;
 }
 
-#second-section > p{
+.text{
     width: 50%;
     font-size: 22px;
     color: #6d7b93;
@@ -196,6 +197,7 @@ i{
     flex-wrap: wrap;
 
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .card{
@@ -220,4 +222,65 @@ i{
 .card p{
     color: #6d7b93;
     font-size: 15px;
+}
+
+/* Third Section */
+#third-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 0px;
+}
+
+
+#third-section-right{
+    width: 50%;
+}
+
+.text-large{
+    width: 80%;
+    font-size: 20px;
+    color: #6d7b93;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    
+}
+
+
+.tip-bar{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    
+    padding: 10px 25px;
+
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.small-icon{
+    font-size: 10px;
+    padding: 5px;
+}
+
+.tip-title{
+    font-size: 18px;
+    font-weight: bold;  
+    margin-left: 10px;
+}
+
+.tip-bar-open{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    
+    width: 80%;
+   
+    margin-top: 20px;
+}
+
+.tip-bar-open .tip-bar{
+    width: 80%;
 }
