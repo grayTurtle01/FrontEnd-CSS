@@ -173,3 +173,51 @@ i{
     
     padding: 0 0px;
 }
+
+/* Second Section*/
+#second-section{
+    padding: 0px 100px;
+}
+
+#second-section h2{
+    color: #1f3e72;
+    font-size: 40px;
+}
+
+#second-section > p{
+    width: 50%;
+    font-size: 22px;
+    color: #6d7b93;
+}
+
+#cards-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-top: 60px;
+}
+
+.card{
+    width: 200px;
+    height: 250px;
+
+    border: 2px solid lightgray;
+    border-radius: 10px;
+
+    padding: 30px;
+}
+
+.card i{
+   font-size: 30px; 
+}
+
+.card h3 {
+    color: #1f3e72;
+    font-size: 22px;
+}
+
+.card p{
+    color: #6d7b93;
+    font-size: 15px;
+}
