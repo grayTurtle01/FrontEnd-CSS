@@ -1,0 +1,61 @@
+/* Second Section*/
+#second-section{
+    padding: 0px 100px;
+}
+
+.subtitle{
+    color: #1f3e72;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.text{
+    width: 50%;
+    font-size: 19px;
+    font-weight: bold;
+    
+    color: #6d7b93;
+
+    line-height: 1.6;
+}
+
+#cards-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.card{
+    width: 270px;
+    height: 330px;
+
+    border: 2px solid lightgray;
+    border-radius: 10px;
+
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.card i{
+   font-size: 30px;
+   padding: 13px; 
+}
+
+.card h3 {
+    color: #1f3e72;
+    font-size: 22px;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card p{
+    color: #6d7b93;
+    font-size: 16px;
+    font-weight: bold;
+
+    line-height: 1.7;
+}
