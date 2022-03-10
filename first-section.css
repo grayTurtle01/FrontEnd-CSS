@@ -87,6 +87,7 @@ i{
 
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 
     background: white;
 }
@@ -139,4 +140,15 @@ i{
     #first-section-right{
         width: 100%;
     }
+
+    #front-form{
+       width: 100%;
+       height: auto;
+    }
+
+    .icon-text-value{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
 }
+
