@@ -1,12 +1,14 @@
 /* Fourth Section*/
 #fourth-section{
     padding-left: 100px;
+
     display: flex;
+    flex-wrap: wrap;
 
     padding-bottom: 150px;
 }
 
-#fourt-section-left{
+#fourth-section-left{
     width: 50%;
 }
 
@@ -66,5 +68,19 @@
     border-radius: 5px;
     border: 0px;
 
+}
+
+@media (max-width: 800px){
+    #fourth-section{
+        padding: 50px;
+    }
+
+    #fourth-section-left{
+        width: 100%;
+    }
+
+    #fourth-section-right{
+        width: 100%;
+    }
 }
 
