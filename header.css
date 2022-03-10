@@ -36,3 +36,21 @@ header li button{
 
     border: 0px;
 }
+
+
+/* Responsive */
+@media (max-width: 700px){
+    header{
+        padding: 0px;
+    }
+
+    header li {
+        margin: 0 10px;
+        font-size: 18px;
+    }
+    header li button {
+        font-size: 18px;
+    }
+    
+}
+

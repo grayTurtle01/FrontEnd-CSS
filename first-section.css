@@ -128,3 +128,15 @@ i{
     
     padding: 0 0px;
 }
+
+/* Responsive */
+@media (max-width: 800px){
+    #first-section-left{
+        width: 100%;
+        color: red;
+    }
+
+    #first-section-right{
+        width: 100%;
+    }
+}
