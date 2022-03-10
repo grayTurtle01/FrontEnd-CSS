@@ -59,3 +59,19 @@
 
     line-height: 1.7;
 }
+
+/* Responsive */
+@media (max-width:800px){
+    #second-section{
+        padding: 50px;
+    }
+
+    .card{
+        margin-top: 20px;
+    }
+
+    .text{
+        width: 100%;
+    }
+}
+

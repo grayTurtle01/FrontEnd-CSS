@@ -90,6 +90,7 @@ i{
     flex-wrap: wrap;
 
     background: white;
+    opacity: 0.9;
 }
 
 .icon-text-value{
@@ -147,7 +148,7 @@ i{
     }
 
     .icon-text-value{
-        margin-top: 10px;
+        margin-top: 20px;
         margin-bottom: 20px;
     }
 }
