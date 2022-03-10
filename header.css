@@ -1,0 +1,38 @@
+/* Header */
+header{
+    height: 120px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 100px;
+
+    background: linear-gradient(45deg, white, #e6f4fc);
+}
+
+#logo{
+    color: #3454d2;
+}
+
+
+header li{
+    display: inline-block;
+    margin: 0 20px;
+
+    color: #6d7b93;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header li button{
+    background: #3454d2;
+    color: white;
+
+    border-radius: 5px;
+
+    font-size: 18px;
+    padding: 15px 35px;
+
+    border: 0px;
+}
