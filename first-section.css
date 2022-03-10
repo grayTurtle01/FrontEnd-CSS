@@ -1,0 +1,130 @@
+/* First Section*/
+#first-section{
+    
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+
+    padding-top: 5px;
+}
+
+#first-section-left{
+    width: 50%;
+
+    box-sizing: border-box;
+    padding: 50px 100px; 
+}
+
+#first-section-right{
+    width: 50%;
+}
+
+#main-title{
+    font-size: 60px;
+    font-weight: bold;
+    color: #1f3e72;
+
+    margin-bottom: 40px;
+    margin-top: 70px;
+
+    width: 90%;
+}
+
+.description{
+    color: #6d7b93;
+    font-size: 20px;
+    line-height: 1.5;
+
+    width: 80%;
+}
+
+.icons-container{
+    display: flex;
+    margin-top: 50px;
+
+   
+}
+
+.icon-and-text{
+    margin-right: 20px;
+    color: #234274;
+}
+
+i{
+    border: 1px solid tranparent;
+    border-radius: 5px;
+    
+    color: #3454d2;
+    background: #f0f4ff;
+
+    padding: 7px;
+    margin-right: 10px;
+}
+
+.yellow-icon{
+    
+    color: #ffd012;
+    background: #fff8de;
+}
+
+/* Front Form*/
+#front-form{
+    width: 950px;
+    height: 150px;
+
+    border: 1px solid lightgray;
+    border-radius: 10px;
+
+    position: relative;
+    top: 5px;
+    left: 25px;
+
+    z-index: 1;
+
+    box-sizing: border-box;
+    padding: 0 45px;
+
+    display: flex;
+    align-items: center;
+
+    background: white;
+}
+
+.icon-text-value{
+    font-size: 20px;
+    margin-right: 40px;
+    color: #234274;
+
+}
+
+.icon-text-value p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#front-form button{
+    width: 150px;
+    height: 55px;
+
+    font-size: 20px;
+    color: white;
+    background: #3454d2;
+    
+    border-radius: 5px;
+    border: 0px;
+}
+
+#brands-bar{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+    padding: 0 0px;
+}
