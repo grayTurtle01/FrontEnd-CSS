@@ -63,3 +63,10 @@
 .tip-bar-open .tip-bar{
     width: 80%;
 }
+
+@media (max-width:800px){
+    #third-section-right{
+        padding: 50px;
+        width: 100%;
+    }
+}
