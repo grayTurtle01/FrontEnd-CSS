@@ -64,6 +64,13 @@
     width: 80%;
 }
 
+/* Effects */
+.small-icon:hover{
+    cursor: pointer
+}
+
+
+/*  Responsive */
 @media (max-width:800px){
     #third-section-right{
         padding: 50px;

@@ -69,7 +69,19 @@
     border: 0px;
 
 }
+/* Effects */
+.emergency-card:hover{
+    box-shadow: 10px 10px 10px lightgray;
+}
 
+.emergency-card button:hover{
+    cursor: pointer;
+    background-color: #3454d2;;
+    color: white;
+}
+
+
+/* Responsive */
 @media (max-width: 800px){
     #fourth-section{
         padding: 50px;
