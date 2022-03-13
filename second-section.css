@@ -60,6 +60,12 @@
     line-height: 1.7;
 }
 
+/* Effects */
+.card:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px lightgray;
+}
+
 /* Responsive */
 @media (max-width:800px){
     #second-section{
