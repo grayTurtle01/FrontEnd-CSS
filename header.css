@@ -8,7 +8,7 @@ header{
 
     padding: 0 100px;
 
-    background: linear-gradient(45deg, white, #e6f4fc);
+    background: linear-gradient(to right, white 50%, #e6f4fc 50% );
 }
 
 #logo{
