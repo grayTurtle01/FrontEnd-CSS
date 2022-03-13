@@ -90,7 +90,7 @@ i{
     flex-wrap: wrap;
 
     background: white;
-    opacity: 0.9;
+    opacity: 1.0;
 }
 
 .icon-text-value{
@@ -131,6 +131,13 @@ i{
     padding: 0 0px;
 }
 
+/*  Effects */
+#front-form button:hover{
+    box-shadow: 0px 10px 10px rgba(56,88,214,0.3);
+    cursor: pointer; 
+}
+
+
 /* Responsive */
 @media (max-width: 800px){
     #first-section-left{
@@ -150,6 +157,10 @@ i{
     .icon-text-value{
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    #brands-bar img{
+        width: 25%;
     }
 }
 
