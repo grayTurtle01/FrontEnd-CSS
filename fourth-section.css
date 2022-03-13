@@ -91,7 +91,30 @@
         width: 100%;
     }
 
+
     #fourth-section-right{
+        width: 100%;
+    }
+
+    
+}
+
+
+@media (max-width: 500px){
+    #fourth-section{
+        padding: 0px;
+    }
+
+    #fourth-section-left{
+        padding: 5% 0 0 5%;
+    }
+
+
+    #emergency-cards-container{
+        justify-content: center;
+    }
+
+    #fourth-section-right img{
         width: 100%;
     }
 }

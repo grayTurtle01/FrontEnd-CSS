@@ -164,3 +164,14 @@ i{
     }
 }
 
+@media (max-width : 500px){
+    #first-section-left{
+        padding: 10%;
+    }
+
+    #front-form{
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+}
+

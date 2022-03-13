@@ -80,3 +80,15 @@
         margin-bottom: 0px;
     }
 }
+
+@media (max-width: 500px){
+    #third-section-right{
+      padding: 5% 0 0 5%;  
+    }
+
+    .tip-bar{
+        width: 80%;
+    }
+
+}
+
