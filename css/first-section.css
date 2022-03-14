@@ -70,7 +70,7 @@ i{
 
 /* Front Form*/
 #front-form{
-    width: 950px;
+    width: 1100px;
     height: 150px;
 
     border: 1px solid lightgray;
@@ -86,6 +86,7 @@ i{
     padding: 0 45px;
 
     display: flex;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 
@@ -107,6 +108,18 @@ i{
     margin-top: 10px;
     margin-bottom: 0px;
 }
+
+.icon-text-value select, .icon-text-value input{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #234274;
+
+    padding: 5px;
+}
+
 
 #front-form button{
     width: 150px;
