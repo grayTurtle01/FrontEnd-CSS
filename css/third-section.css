@@ -25,6 +25,47 @@
     
 }
 
+.tip-card{
+    width: 70%;
+
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    
+    padding: 10px 25px;
+    margin-top: 20px;
+
+}
+
+.tip-card p{
+    display: none;
+    padding-left: 50px;
+    padding-right: 70px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    line-height: 1.4;
+    color: #6d7b93;
+    font-weight: bold;
+}
+
+.show{
+    display: block;
+}
+
+.tip-card-bar{
+
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+
+
 
 .tip-bar{
     border: 1px solid lightgray;
@@ -39,6 +80,7 @@
 
     margin-top: 20px;
 }
+
 
 .small-icon{
     font-size: 15px;
@@ -65,6 +107,11 @@
 }
 
 /* Effects */
+
+.tip-card:hover{
+    box-shadow: 10px 10px 10px lightgray;
+}
+
 .small-icon:hover{
     cursor: pointer
 }
@@ -86,9 +133,10 @@
       padding: 5% 0 0 5%;  
     }
 
-    .tip-bar{
+    .tip-card{
         width: 80%;
     }
+
 
 }
 
