@@ -187,8 +187,18 @@ i{
     }
 
     #front-form{
-        justify-content: center;
+        justify-content: start;
         padding-bottom: 20px;
+        padding-top: 30px;
+    }
+
+    .icon-text-value{
+        border: 1px solid white;
+        margin-left: 30px;
+    }
+
+    #front-form button{
+        margin-left: 60px;
     }
 }
 
