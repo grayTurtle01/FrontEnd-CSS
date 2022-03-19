@@ -1,4 +1,4 @@
-
+// Fold UnFold
 icons = document.querySelectorAll(".small-icon")
 console.log(icons)
 
@@ -26,5 +26,21 @@ for (icon of icons){
 }
 
 
+// Hamburger Effect
+bars = document.querySelector(".fa-bars")
+
+bars.onclick = function(){
+    links = document.querySelectorAll(".link")
+
+    links.forEach( link => {
+        //~ link.classList.toggle('show-element')
+
+        if( link.style.display == 'none' || '')
+            link.style.display = 'inline-block'
+        else
+            link.style.display = 'none'
+        
+    })
+}
 
 

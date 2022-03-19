@@ -27,6 +27,14 @@ header li{
     cursor: pointer;
 }
 
+.fa-bars{
+    display: none;
+}
+
+.show-element{
+    display: block;;
+}
+
 header li button{
     background: #3454d2;
     color: white;
@@ -78,16 +86,26 @@ header li:hover{
         font-size: 15px;
     }
 
+/*
     header li button{
         font-size: 15px;
         padding: 10px 20px;
     }
+*/
 
     header ul{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .link{
+        display: none;
+    }
+
+    .fa-bars{
+        display: inline;
     }
 }
 
