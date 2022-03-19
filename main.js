@@ -1,6 +1,5 @@
 // Fold UnFold
 icons = document.querySelectorAll(".small-icon")
-console.log(icons)
 
 for (icon of icons){
 
@@ -35,7 +34,7 @@ bars.onclick = function(){
     links.forEach( link => {
         //~ link.classList.toggle('show-element')
 
-        if( link.style.display == 'none' || '')
+        if( link.style.display == 'none' || link.style.display == '')
             link.style.display = 'inline-block'
         else
             link.style.display = 'none'
