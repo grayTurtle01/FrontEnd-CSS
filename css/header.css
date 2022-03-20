@@ -36,9 +36,7 @@ header li{
     display: none;
 }
 
-.show-element{
-    display: block;
-}
+
 
 header li button{
     background: #3454d2;
@@ -97,13 +95,6 @@ header li button:hover{
         font-size: 15px;
     }
 
-/*
-    header li button{
-        font-size: 15px;
-        padding: 10px 20px;
-    }
-*/
-
     header ul{
         display: flex;
         align-items: center;
@@ -120,14 +111,9 @@ header li button:hover{
     }
 }
 
-@media (min-width: 900px){
-    .link{
-        display: inline-block;
+@media (max-width: 900px){
+    .responsive .link{
+        display: block;
     }
 }
 
-@media (max-width : 500px){
-    header{
-        
-    }
-}

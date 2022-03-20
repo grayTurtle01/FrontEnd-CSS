@@ -1,9 +1,8 @@
-// Fold UnFold
+// Fold UnFold Tips
 icons = document.querySelectorAll(".small-icon")
 
 for (icon of icons){
 
-    
     icon.onclick = function(){
         card = this.parentNode.parentNode
 
@@ -29,17 +28,10 @@ for (icon of icons){
 bars = document.querySelector(".fa-bars")
 
 bars.onclick = function(){
-    links = document.querySelectorAll(".link")
+    ul = document.querySelector("ul")
+    ul.classList.toggle('responsive')
 
-    links.forEach( link => {
-        //~ link.classList.toggle('show-element')
-
-        if( link.style.display == 'none' || link.style.display == '')
-            link.style.display = 'inline-block'
-        else
-            link.style.display = 'none'
-        
-    })
+    
 }
 
 
